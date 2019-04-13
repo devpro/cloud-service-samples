@@ -1,0 +1,16 @@
+{
+  "name": "imagejsclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^10.3.0",
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^7.0.0"
+  }
+}

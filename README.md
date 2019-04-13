@@ -1,5 +1,7 @@
-# POC Image Storage
+# Cloud service samples
 
-```bash
-npm install @azure/storage-blob
-```
+This repository contains the following samples:
+
+- [Azure BLOB storage](./azure-blob/README.md)
+- [Azure Computer Vision](./azure-computer-vision/README.md)
+- [MongoDB Stitch](./mongodb-stitch/README.md)

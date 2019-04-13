@@ -1,0 +1,16 @@
+{
+  "name": "acvclientnodesjs",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^7.0.0",
+    "request": "^2.88.0"
+  }
+}
