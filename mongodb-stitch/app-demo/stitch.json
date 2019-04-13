@@ -1,0 +1,12 @@
+{
+    "app_id": "demoimagestorage-ixutm",
+    "config_version": 20180301,
+    "name": "DemoImageStorage",
+    "location": "IE",
+    "deployment_model": "LOCAL",
+    "security": {},
+    "hosting": {
+        "enabled": true,
+        "app_default_domain": "demoimagestorage-ixutm.mongodbstitch.com"
+    }
+}
