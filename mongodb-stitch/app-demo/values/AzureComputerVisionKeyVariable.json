@@ -1,0 +1,6 @@
+{
+    "id": "5cb2fbd9e7f790646a3aa854",
+    "name": "AzureComputerVisionKeyVariable",
+    "value": "AzureComputerVisionKeySecret",
+    "from_secret": true
+}
