@@ -1,6 +1,19 @@
 # MongoDB Stitch
 
+[mongodb.com/cloud/stitch](https://www.mongodb.com/cloud/stitch) [docs.mongodb.com/stitch](https://docs.mongodb.com/stitch/)
+
 ## Getting started
+
+### Client samples
+
+- [Node.js command line](./client/nodejs/README.md)
+- [Angular web application sample](./ng-stitch-example)
+
+### Stitch application files
+
+[Application schema](https://docs.mongodb.com/stitch/import-export/application-schema/)
+
+- [app-demo](./app-demo) folder.
 
 ### Stitch CLI
 
@@ -17,13 +30,3 @@ npm install -g mongodb-stitch-cli
 ```bash
 stitch-cli --version
 ```
-
-### Stitch application
-
-Files are located in [app-demo](./app-demo) folder.
-
-[Application schema](https://docs.mongodb.com/stitch/import-export/application-schema/)
-
-### Clients
-
-- [Node.js client](./client/nodejs/README.md)

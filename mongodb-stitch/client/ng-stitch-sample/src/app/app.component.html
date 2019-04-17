@@ -1,28 +1,4 @@
-<mat-toolbar fxLayout="row" color="primary">
-  <div fxFlex=20>
-    <button mat-icon-button [mat-menu-trigger-for]="menu">
-      <mat-icon>menu</mat-icon>
-    </button>
-  </div>
-  <div fxFlex=60 fxLayoutAlign="center">
-    <span>Angular Stitch demo!</span>
-  </div>
-  <div fxFlex fxLayoutAlign="end">
-    <span>
-      <mat-icon>mood</mat-icon>
-    </span>
-  </div>
-</mat-toolbar>
-<mat-menu x-position="before" #menu="matMenu">
-  <button mat-menu-item>Option 1</button>
-  <button mat-menu-item>Option 2</button>
-</mat-menu>
-<mat-card>
-  <button mat-button>All</button>
-  <button mat-raised-button>Of</button>
-  <button mat-raised-button color="primary">The</button>
-  <button mat-raised-button color="accent">Buttons</button>
-</mat-card>
+<app-header></app-header>
 <span class="done">
   <button mat-fab>
     <mat-icon>check circle</mat-icon>

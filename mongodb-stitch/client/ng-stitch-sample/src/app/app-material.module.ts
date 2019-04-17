@@ -7,7 +7,8 @@ import {
   MatCardModule,
   MatSidenavModule,
   MatListModule,
-  MatTableModule
+  MatTableModule,
+  MatTooltipModule
 } from '@angular/material';
 import {CdkTableModule} from '@angular/cdk/table';
 
@@ -21,7 +22,8 @@ import {CdkTableModule} from '@angular/cdk/table';
     MatCardModule,
     MatSidenavModule,
     MatListModule,
-    MatTableModule
+    MatTableModule,
+    MatTooltipModule
   ]
 })
 export class AppMaterialModule { }

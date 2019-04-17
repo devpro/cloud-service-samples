@@ -59,5 +59,11 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 
 /***************************************************************************************************
+ * Needed for Stitch Client
+ * https://stackoverflow.com/questions/55667430/mongodb-stitch-in-angular-7-application
+ */
+(window as any).global = window;
+
+/***************************************************************************************************
  * APPLICATION IMPORTS
  */
