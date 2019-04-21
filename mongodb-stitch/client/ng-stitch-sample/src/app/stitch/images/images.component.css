@@ -5,3 +5,7 @@ table {
 .table-content {
   padding: 10px;
 }
+
+  .table-content .mat-list-item {
+    height: 20px;
+  }

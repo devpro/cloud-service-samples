@@ -10,6 +10,15 @@
       <mat-cell *matCellDef="let element"> {{ element?.computer_vision?.description?.captions[0]?.text }} </mat-cell>
     </ng-container>
 
+    <ng-container matColumnDef="tags">
+      <mat-header-cell *matHeaderCellDef> Tags </mat-header-cell>
+      <mat-cell *matCellDef="let element">
+        <mat-list dense>
+          <mat-list-item *ngFor="let tag of element?.computer_vision?.description?.tags | slice:0:10 "> {{ tag }} </mat-list-item>
+         </mat-list>
+      </mat-cell>
+    </ng-container>
+
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
   </mat-table>

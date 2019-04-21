@@ -1,6 +1,6 @@
 # NgStitchSample
 
-[JavaScript SDK (React)](https://docs.mongodb.com/stitch/procedures/init-stitchclient/) [MongoDB Stitch Browser SDK](https://docs.mongodb.com/stitch-sdks/js/4/index.html)
+[JavaScript SDK](https://docs.mongodb.com/stitch/procedures/init-stitchclient/) [MongoDB Stitch Browser SDK](https://docs.mongodb.com/stitch-sdks/js/4/index.html)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
@@ -20,19 +20,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 ng generate @angular/material:materialNav
 ```
 
-Tutorials:
-
-- [Getting Started With Angular Material 2](https://alligator.io/angular/angular-material-2/)
+[Getting Started With Angular Material 2](https://alligator.io/angular/angular-material-2/)
 
 ### Stitch SDK
-
-- Install the SDK
 
 ```bash
 npm install mongodb-stitch-browser-sdk
 ```
 
-- Edit the file [polyfill.ts](src/polyfill.ts) to add the following line (fix found on [stackoverflow](https://stackoverflow.com/questions/55667430/mongodb-stitch-in-angular-7-application)).
+Fix: Edit the file [polyfill.ts](src/polyfill.ts) to add the following line (found on [stackoverflow](https://stackoverflow.com/questions/55667430/mongodb-stitch-in-angular-7-application))
 
 ```ts
 (window as any).global = window;
@@ -40,11 +36,9 @@ npm install mongodb-stitch-browser-sdk
 
 ### Google Authentication
 
-[Getting up OAuth 2.0](https://support.google.com/cloud/answer/6158849?hl=en) will redirect you to [Google Cloud Platform](https://console.cloud.google.com/getting-started).
+[Google Authentication](https://docs.mongodb.com/stitch/authentication/google/) [MongoDB Guides > Sample App: React + Stitch + Google Authentication](https://docs.mongodb.com/guides/stitch/react_googleauth/)
 
-[Google Authentication](https://docs.mongodb.com/stitch/authentication/google/)
-
-[MongoDB Guides > Sample App: React + Stitch + Google Authentication](https://docs.mongodb.com/guides/stitch/react_googleauth/)
+[Getting up OAuth 2.0](https://support.google.com/cloud/answer/6158849?hl=en) will redirect you to [Google Cloud Platform](https://console.cloud.google.com/getting-started)
 
 ## Build
 

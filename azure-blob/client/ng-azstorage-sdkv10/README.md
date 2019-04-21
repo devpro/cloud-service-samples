@@ -2,7 +2,7 @@
 
 This is a simple SPA based on Angular to experiment [Azure Storage SDK V10 for JavaScript](https://github.com/Azure/azure-sdk-for-js/tree/master/sdk/storage).
 
-**@azure/storage-blob**: [API](https://docs.microsoft.com/en-us/javascript/api/%40azure/storage-blob/index?view=azure-node-preview) [NPM reference](https://www.npmjs.com/package/azure-storage)
+**@azure/storage-blob**: [API](https://docs.microsoft.com/en-us/javascript/api/%40azure/storage-blob/index?view=azure-node-preview) [NPM reference](https://www.npmjs.com/package/@azure/storage-blob)
 
 ## History
 

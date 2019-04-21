@@ -14,6 +14,7 @@ export class ImageService {
       return;
     }
 
+    // TODO : put this values in config (environment)
     return this.clientService.getDatabase('demoStorage').collection('images').find({}, {limit: 10})
       .asArray();
   }
