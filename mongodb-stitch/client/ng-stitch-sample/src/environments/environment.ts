@@ -5,7 +5,9 @@
 export const environment = {
   production: false,
   stitchAppId: 'demoimagestorage-ixutm',
-  stitchMongoServiceName: 'mongodb-atlas'
+  stitchMongoServiceName: 'mongodb-atlas',
+  stitchImageDatabase: 'demoStorage',
+  stitchImageCollection: 'images'
 };
 
 /*

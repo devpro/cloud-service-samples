@@ -1,24 +1,26 @@
 <div class="table-content">
   <mat-table [dataSource]="images" class="mat-elevation-z8">
     <ng-container matColumnDef="url">
-      <mat-header-cell *matHeaderCellDef> Url </mat-header-cell>
-      <mat-cell *matCellDef="let element"> {{ element?.image_url }} </mat-cell>
+      <mat-header-cell *matHeaderCellDef>Url</mat-header-cell>
+      <mat-cell *matCellDef="let element">
+          <img mat-card-image [src]="element?.image_url" alt="Photo"></mat-cell>
     </ng-container>
-
+    <ng-container matColumnDef="freetext">
+      <mat-header-cell *matHeaderCellDef>Freetext</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element?.freetext }}</mat-cell>
+    </ng-container>
     <ng-container matColumnDef="caption">
-      <mat-header-cell *matHeaderCellDef> Caption </mat-header-cell>
-      <mat-cell *matCellDef="let element"> {{ element?.computer_vision?.description?.captions[0]?.text }} </mat-cell>
+      <mat-header-cell *matHeaderCellDef>Caption</mat-header-cell>
+      <mat-cell *matCellDef="let element">{{ element?.computer_vision?.description?.captions[0]?.text }}</mat-cell>
     </ng-container>
-
     <ng-container matColumnDef="tags">
-      <mat-header-cell *matHeaderCellDef> Tags </mat-header-cell>
+      <mat-header-cell *matHeaderCellDef>Tags</mat-header-cell>
       <mat-cell *matCellDef="let element">
         <mat-list dense>
-          <mat-list-item *ngFor="let tag of element?.computer_vision?.description?.tags | slice:0:10 "> {{ tag }} </mat-list-item>
+          <mat-list-item *ngFor="let tag of element?.computer_vision?.description?.tags | slice:0:10 ">{{ tag }}</mat-list-item>
          </mat-list>
       </mat-cell>
     </ng-container>
-
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
     <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
   </mat-table>
