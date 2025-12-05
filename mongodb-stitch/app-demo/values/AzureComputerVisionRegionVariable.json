@@ -1,0 +1,6 @@
+{
+    "id": "5cb2fd4335fed52dd5b2bd9d",
+    "name": "AzureComputerVisionRegionVariable",
+    "value": "francecentral",
+    "from_secret": false
+}

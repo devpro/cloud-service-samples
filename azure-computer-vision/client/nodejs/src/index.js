@@ -4,6 +4,7 @@ const request = require('request');
 
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
+  require('request').debug = true;
 }
 
 const AZURE_COMPUTER_VISION_KEY = process.env.AZURE_COMPUTER_VISION_KEY;
@@ -37,6 +38,7 @@ request.post(options, (error, response, body) => {
     console.log('Error: ', error);
     return;
   }
+  console.log(body);
   let jsonResponse = JSON.stringify(JSON.parse(body), null, '  ');
   console.log('JSON Response\n');
   console.log(jsonResponse);

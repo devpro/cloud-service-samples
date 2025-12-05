@@ -1,0 +1,6 @@
+{
+    "id": "5cb25b1d2f6d722a8fe0410a",
+    "name": "sendPictureToAzureComputerVision",
+    "private": true,
+    "run_as_system": true
+}

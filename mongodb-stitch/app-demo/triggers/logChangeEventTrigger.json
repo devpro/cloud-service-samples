@@ -1,0 +1,19 @@
+{
+    "id": "5cb3332535fed52dd5b831cc",
+    "name": "logChangeEventTrigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE",
+            "REPLACE"
+        ],
+        "database": "demoStorage",
+        "collection": "images",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "full_document": false,
+        "unordered": false
+    },
+    "function_name": "logChangeEvent",
+    "disabled": true
+}

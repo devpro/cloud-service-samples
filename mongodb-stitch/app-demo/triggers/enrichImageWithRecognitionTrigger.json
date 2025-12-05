@@ -1,0 +1,20 @@
+{
+    "id": "5cb2fef335fed52dd5b2e736",
+    "name": "enrichImageWithRecognitionTrigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE",
+            "REPLACE",
+            "INSERT"
+        ],
+        "database": "demoStorage",
+        "collection": "images",
+        "service_name": "mongodb-atlas",
+        "match": {},
+        "full_document": true,
+        "unordered": false
+    },
+    "function_name": "sendPictureToAzureComputerVision",
+    "disabled": false
+}
